@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Katalog Produk - MAUJERSEY</title>
+  <meta name="description"
+    content="Katalog produk jersey custom MAUJERSEY: futsal, basket, esport, paket tim dan lainnya. Bisa custom desain, nama & nomor.">
+  <meta name="keywords"
+    content="jersey custom, jersey futsal, jersey basket, jersey esport, jersey tim, MAUJERSEY">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  <style>
+    /* =========================
+       BRAND / HEADER
+       ========================= */
+    .brand-logo {
+      height: 45px;
+      width: auto;
+      margin-right: 10px;
+    }
+
+    .brand-name {
+      font-size: 22px;
+      font-weight: 800;
+      letter-spacing: 1px;
+      margin: 0;
+      color: #fff;
+      text-transform: uppercase;
+    }
+
+    /* blur header */
+    #header.header {
+      background: rgba(0, 0, 0, 0.35) !important;
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px);
+    }
+
+    /* =====================================
+       FIX NAV MOBILE (MENU TIDAK KE POTONG)
+       ===================================== */
+    @media (max-width: 1199px) {
+
+      /* Saat nav dibuka, navmenu harus full screen */
+      body.mobile-nav-active .navmenu {
+        position: fixed !important;
+        inset: 0 !important;
+        height: 100vh !important;
+        width: 100vw !important;
+        overflow: hidden !important;
+        z-index: 9999 !important;
+      }
+
+      /* UL nya boleh scroll */
+      body.mobile-nav-active .navmenu>ul {
+        position: absolute !important;
+        top: 80px !important;
+        left: 20px !important;
+        right: 20px !important;
+        bottom: 20px !important;
+
+        height: auto !important;
+        max-height: calc(100vh - 110px) !important;
+        overflow-y: auto !important;
+        overflow-x: hidden !important;
+
+        padding-bottom: 20px !important;
+        -webkit-overflow-scrolling: touch;
+        border-radius: 16px;
+      }
+
+      /* tombol close (X) wajib kelihatan */
+      body.mobile-nav-active .mobile-nav-toggle {
+        position: fixed !important;
+        top: 22px !important;
+        right: 22px !important;
+        z-index: 10000 !important;
+      }
+    }
+
+    /* =========================
+       FRAME GAMBAR PRODUK
+       ========================= */
+    .portfolio-card .portfolio-img {
+      height: 260px;
+      overflow: hidden;
+      border-radius: 18px;
+      background: #0b1118;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .portfolio-card .portfolio-img img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center;
+      display: block;
+    }
+  </style>
+</head>
+
+<body class="portfolio-page">
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="header d-flex align-items-center fixed-top">
+    <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
+
+      <!-- Logo Brand -->
+      <a href="index.html" class="logo d-flex align-items-center">
+        <img src="assets/img/logo.png" alt="MAUJERSEY Logo" class="brand-logo" />
+        <h1 class="sitename brand-name">MAUJERSEY</h1>
+      </a>
+
+      <!-- Navbar -->
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="portfolio.html" class="active">Katalog</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+
+    </div>
+  </header>
+  <!-- End Header -->
+
+  <main class="main">
+
+    <!-- ======= Katalog Section ======= -->
+    <section id="portfolio" class="portfolio section">
+
+      <!-- Section Title / Hero -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Katalog Produk</h2>
+        <p>
+          Jelajahi katalog produk MAUJERSEY untuk berbagai kebutuhan jersey olahraga—futsal, basket, hingga esports.
+          Semua produk bisa custom desain, nama & nomor, dengan pilihan bahan berkualitas dan hasil produksi rapi.
+        </p>
+      </div>
+      <!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
+
+          <!-- Filters -->
+          <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="200">
+            <li data-filter="*" class="filter-active">All</li>
+            <li data-filter=".filter-futsal">Futsal</li>
+            <li data-filter=".filter-basket">Basket</li>
+            <li data-filter=".filter-paket">Paket</li>
+            <li data-filter=".filter-esport">Esport</li>
+            <li data-filter=".filter-sepeda">Sepeda</li>
+            <li data-filter=".filter-badminton">Badminton</li>
+          </ul>
+          <!-- End Filters -->
+
+          <!-- Items -->
+          <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="300">
+
+            <!-- Produk 1 -->
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-futsal">
+              <div class="portfolio-card">
+                <div class="portfolio-img">
+                  <img src="assets/img/Katalog/Produk1.png" alt="Jersey Futsal Custom" class="img-fluid">
+                  <div class="portfolio-overlay">
+                    <a href="assets/img/Katalog/Produk1.png" class="glightbox portfolio-lightbox" title="Jersey Futsal Custom">
+                      <i class="bi bi-plus"></i>
+                    </a>
+                    <a href="portfolio-details.html" class="portfolio-details-link" title="Lihat Detail Produk">
+                      <i class="bi bi-link"></i>
+                    </a>
+                  </div>
+                </div>
+                <div class="portfolio-info">
+                  <h4>Jersey Futsal Custom</h4>
+                  <p>Full print sublim, adem & nyaman untuk indoor match.</p>
+                  <div class="portfolio-tags">
+                    <span>Futsal</span>
+                    <span>Custom</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Produk 2 -->
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-basket">
+              <div class="portfolio-card">
+                <div class="portfolio-img">
+                  <img src="assets/img/Katalog/Produk2.png" alt="Jersey Basket Custom" class="img-fluid">
+                  <div class="portfolio-overlay">
+                    <a href="assets/img/Katalog/Produk2.png" class="glightbox portfolio-lightbox" title="Jersey Basket Custom">
+                      <i class="bi bi-plus"></i>
+                    </a>
+                    <a href="portfolio-details1.html" class="portfolio-details-link" title="Lihat Detail Produk">
+                      <i class="bi bi-link"></i>
+                    </a>
+                  </div>
+                </div>
+                <div class="portfolio-info">
+                  <h4>Jersey Basket Custom</h4>
+                  <p>Breathable, cutting basket, bisa 1 set (atas + bawah).</p>
+                  <div class="portfolio-tags">
+                    <span>Basket</span>
+                    <span>Set</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Produk 3 -->
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-esport">
+              <div class="portfolio-card">
+                <div class="portfolio-img">
+                  <img src="assets/img/Katalog/Produk3.png" alt="Jersey Esport Premium" class="img-fluid">
+                  <div class="portfolio-overlay">
+                    <a href="assets/img/Katalog/Produk3.png" class="glightbox portfolio-lightbox" title="Jersey Esport Premium">
+                      <i class="bi bi-plus"></i>
+                    </a>
+                    <a href="portfolio-details2.html" class="portfolio-details-link" title="Lihat Detail Produk">
+                      <i class="bi bi-link"></i>
+                    </a>
+                  </div>
+                </div>
+                <div class="portfolio-info">
+                  <h4>Jersey Esport Premium</h4>
+                  <p>Desain eksklusif, identitas tim makin solid & profesional.</p>
+                  <div class="portfolio-tags">
+                    <span>Esport</span>
+                    <span>Premium</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Produk 4 -->
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-paket">
+              <div class="portfolio-card">
+                <div class="portfolio-img">
+                  <img src="assets/img/Katalog/Produk4.png" alt="Paket Jersey 1 Tim" class="img-fluid">
+                  <div class="portfolio-overlay">
+                    <a href="assets/img/Katalog/Produk4.png" class="glightbox portfolio-lightbox" title="Paket Jersey 1 Tim">
+                      <i class="bi bi-plus"></i>
+                    </a>
+                    <a href="portfolio-details3.html" class="portfolio-details-link" title="Lihat Detail Produk">
+                      <i class="bi bi-link"></i>
+                    </a>
+                  </div>
+                </div>
+                <div class="portfolio-info">
+                  <h4>Paket Jersey 1 Tim</h4>
+                  <p>Lebih hemat untuk tim + bonus custom nama & nomor.</p>
+                  <div class="portfolio-tags">
+                    <span>Paket</span>
+                    <span>Team</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Produk 5 -->
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-sepeda">
+              <div class="portfolio-card">
+                <div class="portfolio-img">
+                  <img src="assets/img/Katalog/Produk5.png" alt="Jersey Sepeda" class="img-fluid">
+                  <div class="portfolio-overlay">
+                    <a href="assets/img/Katalog/Produk5.png" class="glightbox portfolio-lightbox" title="Jersey Sepeda">
+                      <i class="bi bi-plus"></i>
+                    </a>
+                    <a href="portfolio-details4.html" class="portfolio-details-link" title="Lihat Detail Produk">
+                      <i class="bi bi-link"></i>
+                    </a>
+                  </div>
+                </div>
+                <div class="portfolio-info">
+                  <h4>Jersey Sepeda</h4>
+                  <p>Nyaman untuk gowes, bahan ringan dan cepat menyerap keringat.</p>
+                  <div class="portfolio-tags">
+                    <span>Sepeda</span>
+                    <span>Training</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Produk 6 -->
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-badminton">
+              <div class="portfolio-card">
+                <div class="portfolio-img">
+                  <img src="assets/img/Katalog/Produk6.png" alt="Jersey Badminton" class="img-fluid">
+                  <div class="portfolio-overlay">
+                    <a href="assets/img/Katalog/Produk6.png" class="glightbox portfolio-lightbox" title="Jersey Badminton">
+                      <i class="bi bi-plus"></i>
+                    </a>
+                    <a href="portfolio-details5.html" class="portfolio-details-link" title="Lihat Detail Produk">
+                      <i class="bi bi-link"></i>
+                    </a>
+                  </div>
+                </div>
+                <div class="portfolio-info">
+                  <h4>Jersey Badminton</h4>
+                  <p>Ringan, fleksibel, nyaman untuk rally cepat dan pertandingan.</p>
+                  <div class="portfolio-tags">
+                    <span>Badminton</span>
+                    <span>Sport</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <!-- End Items -->
+
+        </div>
+
+        <div class="text-center mt-5" data-aos="fade-up" data-aos-delay="400">
+          <a href="contact.html" class="btn btn-primary">Order / Konsultasi via WhatsApp</a>
+        </div>
+
+      </div>
+
+    </section>
+
+  </main>
+
+  <footer id="footer" class="footer">
+    <div class="container">
+      <div class="copyright text-center ">
+        <p>© <span>Copyright</span> <strong class="px-1 sitename">MAUJERSEY</strong>
+          <span>All Rights Reserved<br></span>
+        </p>
+      </div>
+
+      <div class="credits">
+        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center">
+    <i class="bi bi-arrow-up-short"></i>
+  </a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/typed.js/typed.umd.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
